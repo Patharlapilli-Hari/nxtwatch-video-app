@@ -21,3 +21,16 @@ A responsive video streaming application built with React.js. It includes authen
 - Dark and light theme toggle
 - Loading, failure, and empty views
 - Logout confirmation popup
+## Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Home Page (Dark)
+![Home Dark](screenshots/home-dark.png)
+
+### Home Page (Light)
+![Home Light](screenshots/home-light.png)
+
+### Video Details
+![Video](screenshots/video-details.png)
