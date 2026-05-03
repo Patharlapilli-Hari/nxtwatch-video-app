@@ -1,0 +1,37 @@
+.video-card {
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+
+.video-link {
+  display: block;
+}
+
+.video-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-info-row {
+  display: flex;
+  margin-top: 12px;
+}
+
+.channel-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.video-title {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.video-meta {
+  margin: 0 0 4px;
+  color: #64748b;
+  font-size: 14px;
+}

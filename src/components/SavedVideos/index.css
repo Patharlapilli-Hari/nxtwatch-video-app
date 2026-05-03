@@ -1,0 +1,30 @@
+.saved-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 24px 0 0;
+}
+
+.saved-empty-view {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.saved-empty-image {
+  width: 280px;
+}
+
+.saved-empty-title {
+  color: #1e293b;
+}
+
+.saved-empty-title.dark-text {
+  color: #ffffff;
+}
+
+.saved-empty-description {
+  color: #64748b;
+}

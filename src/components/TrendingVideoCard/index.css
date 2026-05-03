@@ -1,0 +1,45 @@
+.trending-video-card {
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+
+.trending-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trending-info {
+  margin-top: 12px;
+}
+
+.trending-title {
+  color: #1e293b;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.trending-meta {
+  color: #64748b;
+  font-size: 14px;
+  margin: 0 0 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-link {
+    flex-direction: row;
+  }
+
+  .trending-thumbnail {
+    width: 360px;
+    margin-right: 16px;
+  }
+
+  .trending-info {
+    margin-top: 0;
+  }
+}

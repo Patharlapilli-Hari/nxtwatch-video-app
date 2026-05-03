@@ -1,0 +1,32 @@
+.failure-view {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.failure-image {
+  width: 280px;
+  max-width: 100%;
+}
+
+.failure-heading {
+  color: #1e293b;
+  font-size: 24px;
+}
+
+.failure-text {
+  color: #64748b;
+  max-width: 420px;
+}
+
+.retry-button {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 10px 18px;
+}

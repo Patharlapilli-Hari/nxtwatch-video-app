@@ -1,0 +1,99 @@
+.header {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header.light {
+  background-color: #ffffff;
+}
+
+.header.dark {
+  background-color: #212121;
+}
+
+.header-logo {
+  width: 140px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.theme-button,
+.logout-button,
+.cancel-button,
+.confirm-button {
+  cursor: pointer;
+  outline: none;
+}
+
+.theme-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.header.light .theme-button {
+  color: #181818;
+}
+
+.header.dark .theme-button {
+  color: #ffffff;
+}
+
+.profile-image {
+  width: 28px;
+  margin-right: 16px;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.popup-text {
+  text-align: center;
+  color: #475569;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.cancel-button,
+.confirm-button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 8px;
+}
+
+.cancel-button {
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  color: #64748b;
+}
+
+.confirm-button {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+}

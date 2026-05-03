@@ -1,0 +1,91 @@
+.video-details-card {
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.video-details-card.light {
+  background-color: #ffffff;
+}
+
+.video-details-card.dark {
+  background-color: #0f0f0f;
+}
+
+.details-title {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 16px 0 12px;
+}
+
+.dark-text {
+  color: #ffffff;
+}
+
+.details-meta-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-meta {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #64748b;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.action-button svg {
+  margin-right: 4px;
+}
+
+.action-button.active {
+  color: #2563eb;
+}
+
+.details-separator {
+  border: 1px solid #475569;
+  margin: 16px 0;
+}
+
+.channel-row {
+  display: flex;
+}
+
+.details-channel-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.channel-name {
+  color: #1e293b;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.description {
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .details-meta-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

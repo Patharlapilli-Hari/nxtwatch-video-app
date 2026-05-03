@@ -1,0 +1,8 @@
+.gaming-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 24px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

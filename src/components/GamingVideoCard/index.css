@@ -1,0 +1,28 @@
+.gaming-card {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 24px;
+}
+
+.gaming-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.gaming-title {
+  color: #1e293b;
+  font-weight: 500;
+  margin: 12px 0 8px;
+}
+
+.gaming-views {
+  color: #64748b;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .gaming-card {
+    width: 30%;
+  }
+}

@@ -1,0 +1,44 @@
+.trending-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 24px 0 0;
+}
+
+.route-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.route-header.light {
+  background-color: #e2e8f0;
+}
+
+.route-header.dark {
+  background-color: #0f0f0f;
+}
+
+.route-icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  margin-right: 16px;
+}
+
+.route-icon {
+  color: #ff0000;
+  font-size: 28px;
+}
+
+.route-title {
+  color: #1e293b;
+  margin: 0;
+}
+
+.route-title.dark {
+  color: #ffffff;
+}
