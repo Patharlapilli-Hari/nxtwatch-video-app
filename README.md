@@ -30,3 +30,6 @@ A responsive video streaming application built with React.js. It includes authen
 ### Login Page
 ![Login](https://github.com/Patharlapilli-Hari/nxtwatch-video-app/blob/e46ce9e5d3f85ea0ddc1a07d33ff7602992b3a2f/Screenshot%202026-05-03%20152750.png)
 
+
+### Home Page (Light)
+![Home Light](https://github.com/Patharlapilli-Hari/nxtwatch-video-app/blob/00f4507178b0b2e7e2c74c8017164892a7ac915e/Screenshot%202026-05-03%20152714.png)
