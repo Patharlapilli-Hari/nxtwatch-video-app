@@ -22,3 +22,5 @@ A responsive video streaming application built with React.js. It includes authen
 - Loading, failure, and empty views
 - Logout confirmation popup
 ## Screenshots
+### Home Page (Dark)
+![Home Dark]([screenshots/home-dark.png](https://github.com/Patharlapilli-Hari/nxtwatch-video-app/blob/e69115ed62e311ec6e44346ddd21efec141c3d23/Screenshot%202026-05-03%20152735.png))
